@@ -1,0 +1,35 @@
+.right_tiny{
+  font-size:12px;
+  margin-left: 15px;
+}
+.right_tiny{
+  margin: 0 10px;
+}
+
+.right_tiny h6{
+  margin: 0;
+}
+
+.left_tiny{
+margin: auto 0;
+}
+
+.left_tiny img{
+  vertical-align: super !important;
+}
+
+.content_H h5{
+  color:#1a0dab;
+  overflow: hidden;
+  width: 50%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.content_H h5:hover{
+text-decoration: underline;
+}
+
+.details{
+  width: 75%;
+}
