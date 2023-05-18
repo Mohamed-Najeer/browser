@@ -7,7 +7,7 @@ const Details=()=>
 
   const val = {"data":
   [{
-  "small_icon":"../images/rBimg1.jpg",
+  "small_icon":"rImg1.png",
   "title":"Housing",
   "link":"https://housing.com/news/top-it-companies-in-chennai/",
   "details_H":"08-Feb-2022 — IT companies in Chennai, Tamil Nadu: List of top 10 software companies in Chennai · Inspirisys Solutions Ltd · Accenture · Adrenalin eSystems",
@@ -15,7 +15,7 @@ const Details=()=>
   "image":"rBimg1.jpg"
   },
   {
-  "small_icon":"../images/rBimg2.jpg",
+  "small_icon":"rImg2.png",
   "title":"Wikipedia",
   "link":"https://en.wikipedia.org/wiki/List_of_Indian_IT_companies",
   "details_H":"List of Indian IT companies",
@@ -23,7 +23,7 @@ const Details=()=>
   "image":"rBimg2.jpg"
   },
   {
-  "small_icon":"../images/rBimg3.jpg",
+  "small_icon":"rImg3.png",
   "title":"No Broker",
   "link":"https://www.nobroker.in/blog/it-companies-in-chennai/",
   "details_H":"Top IT Companies in Chennai - All About Software ",
@@ -120,7 +120,7 @@ const Details=()=>
       <div class="upper_portion d-flex">
       <div className="left_tiny">
        {/* <img src={require(datas.small_icon)}/> */}
-       <img src={require(datas.small_icon)} alt="?"/>
+       <img src={require('../../src/images/'+datas.small_icon)} alt="?"/>
       </div>
       <div className="right_tiny">
         <h6>{datas.title}</h6>
